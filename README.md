@@ -1,1 +1,0 @@
-# ftwpala.github.io
