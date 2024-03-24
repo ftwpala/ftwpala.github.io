@@ -3,14 +3,17 @@ import "../components/Navbar.css";
 
 const Navbar = () => {
   return (
-    <div className="navbar">
-      <Link to="/">
-        <button>Home</button>
-      </Link>
-      <Link to="/about">
-        <button>About me</button>
-      </Link>
-    </div>
+    <>
+      <div className="navbar">
+        <Link to="/">
+          <button>Home</button>
+        </Link>
+        <Link to="/about">
+          <button>About me</button>
+        </Link>
+      </div>
+      <div className="nav-spacing"></div>
+    </>
   );
 };
 

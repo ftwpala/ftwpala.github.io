@@ -19,6 +19,10 @@
   }
 }
 
+.nav-spacing {
+  padding-top: 50px; /* same spacing as navbar height */
+}
+
 .navbar::before {
   content: "hihihi";
 }
