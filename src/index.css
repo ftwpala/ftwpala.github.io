@@ -21,6 +21,15 @@ code {
   justify-content: center;
 }
 
+.button {
+  background-color: transparent;
+  border: none;
+}
+.button:hover {
+  border-radius: 20%;
+  background-image: linear-gradient(rgb(0 0 0/40%) 0 0);
+}
+
 html,
 body {
   overflow-x: hidden;

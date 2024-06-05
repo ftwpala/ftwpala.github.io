@@ -1,0 +1,19 @@
+.sliding-part {
+  display: flex;
+  flex-flow: row;
+  margin: auto;
+  min-width: 500px;
+  width: 100%;
+  left: calc(100vw);
+  position: absolute;
+  opacity: 0;
+  background-color: #29324b;
+  transition: left 2s ease, opacity 0.1s ease 2s;
+  height: 224px; /* i don't like how this is handled, this needs to be dynamic and bring the height from the other element, use a ref and then get the height from there */
+}
+
+.sliding-part.show {
+  left: 0;
+  opacity: 1;
+  transition: left 2s ease, opacity 0.1s ease;
+}
